@@ -1,0 +1,9 @@
+body,div,a,nav,ul,li,h1,head{margin: 0px;padding: 0px}
+	body{font-family: 'Hanna', serif;font-size: 20px; background-color:#CED9BC}
+	h1{display:inlilne-block;padding-top:50px;cursor:pointer;}
+	a{text-decoration: none;}
+	#header{width:990px; height:140px; background-color:#3C5B45}
+	#gu_btn1{float:right;}
+	.gu_btn{width: 100px;}
+	#btn_teamjoin{cursor: pointer; border:3px solid #e8e8e8;}
+	#btn_teamjoin:hover{background:#e8e8e8}

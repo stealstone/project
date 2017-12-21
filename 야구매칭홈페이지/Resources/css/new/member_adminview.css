@@ -1,0 +1,88 @@
+table{
+	border:0px;
+}
+
+#divAdmin{
+	font-size:1em;	
+}
+#divAdmin div:first-child{
+	padding:0px;
+	clear:right;
+}
+
+#divMatchInfo{
+	border:2px solid #999;
+}
+h2{
+	margin:0x;padding:0px;
+	margin-left:20px;
+}
+h3{
+	margin:0px;padding:0px;
+	clear:both;
+	margin:10px 0px 10px 20px;
+}
+.float_right{
+	float:right;
+}
+.tableSet{
+	width:100%;	
+	text-align:center;
+	background-color:#eee;
+}
+.tableSet th:nth-child(1){
+	width:50px;
+}
+.tableSet th:nth-child(2){
+	width:100px;
+}
+.tableSet th:nth-child(3){
+	width:100px;
+}
+.tableSet th:nth-child(4){
+	width:80px;
+}
+.tableSet th:nth-child(5){
+	}
+.tableSet2{	
+	width:100%;	
+	text-align:center;
+	background-color:#eee;
+	font-size:1.1em;
+}
+.tableSet2 td:nth-child(1){
+	width:50px;
+}
+.tableSet2 td:nth-child(2){
+	width:100px;
+}
+.tableSet2 td:nth-child(3){
+	width:100px;
+}
+.tableSet2 td:nth-child(4){
+	width:80px;
+}
+.tableSet2 td:nth-child(5){
+	
+}
+.scroll{	
+	height:170px;
+	width:100%;
+	overflow:auto;
+}
+#divPenalty{	
+	margin-top:20px;
+	border:2px solid #999;
+}
+#formPenalty > p{
+	margin-bottom:0px;
+	height: 160px; 
+	background: #eee; 
+	border: 5px solid #eee;
+	color: #000; 
+	overflow: auto; 
+}
+#formPenalty  input[type="button"]{
+	margin-top:10px;
+	margin-right:10px;
+}

@@ -1,0 +1,40 @@
+table {border-collapse:collapse}
+
+#divContent > div{
+	width:740px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#divSubmit{
+	width:135px;	
+	float:right;
+	margin-top: 100px;
+}
+.bbsList{
+	width:700px; 
+	margin-right:auto;margin-left:auto;
+	font-size:1.2em;
+}
+
+.list_check{
+	width:50px;
+}
+.list_send{
+	width:120px;
+}
+.list_date{
+	width:140px;
+}
+
+tr{
+	height:30px;
+}
+th{
+	border:1px solid #999999;	
+}
+td{
+	border-bottom:1px solid #999999;
+	text-align:center;
+}

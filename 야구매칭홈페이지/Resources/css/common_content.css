@@ -1,0 +1,38 @@
+/**** div 컨텐트 ****/
+#divContent{	
+	text-align:center;
+	float:right;
+	width:750px;
+	}
+#divContent>a>img{
+	
+	width:700px
+}
+#divContent>a>#imgBoard{
+	width:780px;
+	height:200px;	
+}
+
+	/**** 공지사항,매칭게시판 미리보기 테이블 ****/
+.section{font-size:1.3em;width:650px;position:relative;padding:40px;}
+.section:last-child{padding-top:0px}
+.section:first-child{margin-top:0}
+.btn_more{position:absolute;top:11px;right:7px;padding-right:8px;letter-spacing:-1px;font-size:11px;color:#74798F}
+
+.mask{position:absolute;top:0;bottom:0;left:0;right:0;border:1px solid #000;opacity:0.3;filter:alpha(opacity=30)}
+
+.tab{position:statice !important;height:32px !important;margin:0 0 7px 0;border-bottom:1px solid #42506B}
+.tab a{text-align:center;float:left;overflow:hidden;width:103px;height:22px;padding-top:9px;margin-right:-1px;border:1px solid #C6C6C8;border-bottom:0;}
+
+.tab span{text-align:center;height:43px;margin:0 auto;overflow:hidden;text-indent:-9999px;cursor:pointer}
+.tab .on{width:104px;height:23px;margin:0;border:1px solid #2C498F;border-bottom:none;background:#F3F4F6;margin-bottom:-1px}
+.tab .on span{margin-top:-30px}
+.tab .on + a{border-left:0}
+.tab a:first-child{margin-left:0 !important}
+
+ul .list{padding:0 0 0 8px;height:150px;border-bottom:1px solid black}
+.list li{text-align:left;position:relative;padding-left:10px;letter-spacing:-1px;line-height:30px;white-space:nowrap}
+.list li a{display:inline-block;overflow:hidden;max-width:355px;color:#444;text-overflow:ellipsis;vertical-align:top}
+.list li a:hover{text-decoration:underline}
+.list .date{position:absolute;top:0;right:7px;font-family:verdana;color:#949494;font-size:10px}
+

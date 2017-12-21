@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+/*=============태그 초기화 ====================*/
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{
+	margin:0;padding:0}body{font-family:'Nanum Gothic',NanumGothic,Dotum,Verdana;font-size:0.75em
+}
+a{text-decoration:none}
+ul,li{list-style:none}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+
+caption,hr,legend{display:none}
+a{color:#44526c;text-decoration:none}
+input.inp_chk,input.inp_rdo{width:13px;height:13px;vertical-align:text-top}
+.blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+.ellipsis,.ellp{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;_width:100%}
+.dimmed{position:absolute;top:0;right:0;bottom:0;left:0;background:#000;opacity:0.7;filter:alpha(opacity=70)}
+
+/*===================align 속성================*/
+
+.align_center{margin-right:auto; margin-left:auto}
+.text_align_center{text-align:center;}
+
+/*=================container=================*/
+
+#divContainer{
+	clear:both;
+	margin-right:auto;
+	margin-left:auto;
+	width:1000px;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+
+
+
+
+	

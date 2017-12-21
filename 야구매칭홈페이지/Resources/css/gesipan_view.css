@@ -1,0 +1,85 @@
+#divContent table,td,th{border:0px}
+#divContent > form > table{
+	width:700px;
+	margin:20px auto 20px auto;
+}
+#divContent > form > table:last-child{
+	float:left;
+	width:300px;
+}
+#tblViewInfo{
+	width:750px;
+}
+#tblSelectResult{
+	margin-left:auto;
+	margin-right:auto;
+}
+#tblText td{
+	height:300px;
+	align:center;
+	vertical-align:top;
+}
+hr{
+	 display: block;
+	    margin-top: 0.5em;
+	    margin-bottom: 0.5em;
+	    margin-left: 20px;
+	    margin-right: 20px;
+	    border-width: 1px;
+	    clear:right;
+}
+#divComment{
+	width:700px;
+	margin:20px auto 20px auto;
+	text-align:center;	
+}
+#divComment table{
+	width:700px;
+	margin:20px auto 20px auto;
+}
+#divComment table td:nth-child(1){
+	width:50px;
+}
+#divComment table td:nth-child(2){
+	width:70%;	
+}
+#divComment table td:nth-child(3){
+	width:50px;	
+}
+#divComment table td:nth-child(4){
+	width:35px;	
+}
+
+
+/* #divComment table td:nth-child(8){
+	width:60px;	
+} */
+/* .on{
+	width:60px;
+}
+.off{
+	display:none;
+} */
+#tdReply01{
+	text-align:left;
+	padding-left:20px;
+}
+
+#textareaReplyUpdate{
+	width:400px;
+	text-align:left;
+	padding-left:20px;
+}
+ #textareaReplyInsert{
+	width:580px;
+	height:50px;
+} 
+#btnCommentInsert{	
+	width:70px;
+	padding:5px;	margin:10px;
+	float:right;	
+}
+
+#tdPosts{
+	text-align:left;
+}

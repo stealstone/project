@@ -1,0 +1,64 @@
+/*=========�깭洹� 珥덇린�솕=========*/
+body,p,h1,h2,h3,h4,h5,ul,ol,li,dl,header,aside,section{padding:0px;margin:0px;}
+/* body{width:952px;height:720px;margin:3px;border:4px solid #d4d4d4;}
+header{width:950px; height:90px;border-bottom: 5px solid #e8e8e8; }
+aside{width:230px;height:590px;float:left;margin-top:1px;}*/
+section{width:780px;height:530px;float:left;margin-top:1px;margin-left:10px;} 
+
+
+
+/*========== align �냽�꽦 ==========*/
+.float_left{float:left;}
+.float_right{float:right;}
+button{background-color: #69B1A9;}
+
+
+
+/** 蹂몃Ц **/
+section{backbrond-color:#76C3BD;}
+#gudantab > a {text-shadow:1px 1px 3px white;color:black;text-decoration: none;padding-top:15px;border-left:3px solid #e8e8e8;width:192px;height:60px;border:none;float:left;margin-left:1.5px;margin-right:1.5px;text-align:center;}
+#gudantab .on{width:192px;height:60px;border:none;float:left;text-align:center;}	
+
+
+#gudantab .on:hover{background: #e8e8e8;}
+#gudantab_a02:hover{background: #e8e8e8;}
+#gudantab_a03:hover{background: #e8e8e8;}
+#gudantab_a04:hover{background: #e8e8e8;}
+#gal:hover{background: #e8e8e8;}
+
+#gudantab02 > div {claer:auto;}
+#gudantab02> div > table {table-layout:fixed;word-break:break-all;height:auto; width:780px;margin-left:10px;}
+
+
+
+/** �꽑�닔�젙蹂� �꺆 **/
+table{font-size:0.7em;vertical-align:center;text-align:center;border-collapse:collapse;}
+#gudantab03> div > table{table-layout:fixed;word-break:break-all;height:auto;}
+#gudantab03> div > table {width:780px;}
+th,td{border-left:3px solid #e8e8e8;color:black;font-family: 'Hanna';text-shadow:1px 1px 3px white;}
+th{text-align: center;}
+table td:nth-child(1),table th:nth-child(1){border:none;}
+.join{width: 35px; height: 18px;}
+.join:hover{cursor: pointer; background:#e8e8e8; padding: 1px;}
+#Join_member{width: 780px; height: 50px; margin-bottom: 20px}
+#Join_member1{width: 780px; height: 50px;}
+.Join_member2{margin-top:18px;width:780px; height:200px; overflow: auto;}
+.Join_member3{margin-top:68px; width:780px; height:200px; overflow: auto;}
+.Join_member4{margin-top:68px; width:780px; height:470px; overflow: auto;}
+
+
+/** �씪�씤�뾽 �꺆 **/
+#gudantab04 > input[type=image] {width:540px;height:	480px;}
+#gudantab04 > table {width:150px;margin:10px;}
+#gudantab04 tr {height:30px;border-top:1px solid black;}
+#gudantab04> table > tbody > td{}
+#gudantab04 select[disabled]{}
+
+
+
+/** 媛ㅻ윭由� �꺆 **/
+#gallery{width:540px;height:	480px;}
+
+
+
+

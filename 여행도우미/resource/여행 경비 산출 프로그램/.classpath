@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="UI2/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/JavaRoom/여행 경비 산출 프로그램/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="D:/JavaRoom/여행 경비 산출 프로그램/lib/quaqua.jar"/>
+	<classpathentry kind="lib" path="D:/JavaRoom/여행 경비 산출 프로그램/lib/tools.jar"/>
+	<classpathentry kind="output" path="UI2/bin"/>
+</classpath>

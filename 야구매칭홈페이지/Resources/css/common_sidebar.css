@@ -1,0 +1,27 @@
+
+	/**** div 사이드바 ****/
+
+#divSide{
+	float:left;
+	margin-bottom:20px
+}
+
+#imagemail{
+	margin-right:10px;	
+}
+
+#divsearch{
+	height: 30px;
+	width: 250px;
+	margin-top: 5%;
+}
+
+#divRanking{
+	height:250px;
+	width:250px;
+	margin-top: 5%;
+}
+#divRanking > img {
+	width:250px;
+	height:250px;
+}

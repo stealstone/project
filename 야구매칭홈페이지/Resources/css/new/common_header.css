@@ -1,0 +1,43 @@
+/*==================header==================*/
+body{
+	/* background-image: url("../images/background3.jpg"); 
+	background-repeat: no-repeat;	*/
+} 
+
+	/** logo  **/
+
+#divLogo{
+	text-align:center;
+	/* background-image:url(../images/hdr_pattern2_3.gif);
+	background-repeat:repeat-x; */
+}
+#divLogo>a>img{
+	width:210px;	
+	height:90px;
+	margin:15px 0px; 
+}
+	/** gnb **/
+
+/* 1)#gnb의 크기및 position 속성 지정하기(div의 시작좌표값을 부모로부터로 기준점을 수정하기 위해) */
+#gnb{
+	height:50px;
+	/* background: #D9E1E5 url(../images/nav_102.gif); 
+	background-repeat:repeat-x; */
+}
+#gnb>ul{width:700px;margin:0 auto;}
+
+/* 2)모든 li태그를 한줄에 오도록 float시킨다 */
+#gnb ul li{float:left;margin-right:auto;margin-left:auto;}
+
+/* 4)depth1의 li 태그만 좌우 여백주기 */
+#gnb>ul>li{width:90px;margin: 0px 25px 0px 25px;padding-top:15px}
+
+/* 5)depth1의 주메뉴 링크 배경이미지 처리 */
+/* 특별성 103 */
+#gnb>ul>li>a{display:block;margin:auto auto auto auto;color:black;}
+#gnb #gnb1>a{text-align:center;font-size:1.4em;width:130px;}/* 특별성 201 */
+#gnb li>a:hover{color:green}
+#gnb #gnb2>a{text-align:center;font-size:1.4em;width:130px;}
+#gnb #gnb3>a{text-align:center;font-size:1.4em;width:130px;}
+#gnb #gnb4>a{text-align:center;font-size:1.4em;width:130px;}
+#gnb #gnb5>a{text-align:center;font-size:1.4em;width:130px;}

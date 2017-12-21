@@ -1,0 +1,13 @@
+* { margin:0; padding:0; }
+			#gallery {left:50%; top:50%; width:700px; height:530px;margin:0''}
+			#image { float:left;width:700px; height:400px; margin:auto;padding:auto; }
+			#image p { display:none;}
+			#image p img { width:700px; height:400px; }
+			#thumbnail { float:left;position:relative; width:700px; height:55px; margin-top:15px;}
+			#thumbnail div { float: left; }
+			#thumbnail .left { position:absolute; left:0; top:0; width:33px; height:95px; padding-top:30px; text-align:center;  cursor:pointer;}
+			#thumbnail .right { position:absolute; right:0; top:0; width:33px;  height:95px; padding-top:30px; text-align:center; cursor:pointer;}
+			#thumbnail .container { overflow: hidden; position:relative; left:33px; width:600px; height:65px;}
+			#thumbnail .container ul { position: absolute; width:2560px; margin-left:-8px;}
+			#thumbnail .container .thumb { float: left; width:90px; height:75px; margin-left:8px; list-style: none; }
+			#thumbnail .container .thumb.ml0{ margin-left:0 }

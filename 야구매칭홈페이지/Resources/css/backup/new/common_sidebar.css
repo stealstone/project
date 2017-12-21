@@ -1,0 +1,23 @@
+
+	/**** div 사이드바 ****/
+
+#divSide{
+	float:left;
+	margin-bottom:20px;
+	background-color:rgb(247,247,242);
+}
+
+#imagemail{
+	margin-right:10px;	
+}
+
+#divWeather, #divRanking{
+	height:250px;
+	width:250px;
+	margin-top:5%
+}
+#divWeather > img,#divRanking > img {
+	margin:10px;
+	width:230px;
+	height:230px;
+}

@@ -1,0 +1,109 @@
+/*=========태그 초기화=========*/
+body,p,h1,h2,h3,h4,h5,ul,ol,li,dl{			
+	padding:0px;		margin:0px;
+}
+
+/*========= 영역 설정 ==========*/
+body{
+	width:950px;		height:650px;		
+	margin:3px;				
+}
+header{					
+	width:950px; height:110px;	
+	background-color:#00008b;
+	color:#ffd700;
+}
+
+aside{
+	width:230px;		height:535px;
+	background-color:#1e90ff;
+	float:left;
+	margin-top:1px;
+}
+section{
+	width:715px;		height:530px;	
+	float:left;		
+	margin-top:1px;	margin-left:1px;			
+}
+/*========== align 속성 ==========*/
+.float_left{float:left;}
+.float_right{float:right;}
+
+/** 본문 **/
+
+
+#gudantab > a {
+	width:70px;	height:30px;
+	background-color:black;		border:1px solid #C6C6C8;	
+		float:left;	
+	padding-top:14px;	
+	
+	font-size:0.8em;
+	text-decoration:none;		text-align:center;		
+	color:white;			
+}
+#gudantab .on{
+	width:70px;	height:30px;
+	background-color:white;		border:1px solid #C6C6C8;	
+	border-bottom:1px solid white;
+	float:left;
+	padding-top:14px;	
+	
+	font-size:0.8em;	font-weight:bold;
+	text-decoration:none; 	text-align:center;
+	color:black;
+}	
+
+/** 구단정보 탭**/
+
+#image{
+	width:660px;
+	clear:both;		
+	text-align:center;			
+}
+#image > img{
+	margin:5px;
+}
+
+h2{
+	margin:10px;
+	clear:left;
+}		
+ul{
+	height:50px;		width:715px;
+	float:left;
+	margin:0px;	padding:0px;
+	list-style:none;			
+}
+
+#gudantab02 > div {
+	claer:auto;
+}
+
+#gudantab02> div > table {
+	width:720px;
+}
+
+/** 선수정보 탭 **/
+
+#gudantab03> div > table {
+	width:720px;
+}
+
+/** 라인업 탭 **/
+#gudantab04 > input[type=image] {
+	width:540px;
+	height:	480px;
+}
+#gudantab04 > table {
+	 width:150px;
+	margin:10px;	
+}
+#gudantab04 tr {
+	height:30px;
+	border-top:1px solid black;
+}
+#gudantab04> table > tbody > td{
+}
+#gudantab04 select[disabled]{
+}

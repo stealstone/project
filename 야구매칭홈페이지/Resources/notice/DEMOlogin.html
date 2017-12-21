@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>야구 경기 매칭 사이트</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<script type="text/javascript" language="JavaScript" src="js/tab.js" charset="UTF-8"></script>
+<script>
+	function showgudaninfo(){
+		  window.open("gudanInfoTamp.jsp", "pop", "width=800, height=700, 
+				  toolbar=no, menubar=no, scrollbars=no, resizable=yes" );  		
+	}
+</script>
+</head>
+<body>					
+ 	 	
+<!-- ========== header ==========  -->
+		 
+		<header id="header">
+			
+			<!-- @@   logo @@-->
+			<div id="divLogo">
+				<a href="index.html"><img src="images/logo1.png"></a>
+			</div>
+			<!--@@ navigation @@-->				
+			<nav id="gnb">
+				<ul>	
+					<li id="gnb1"><a href="notice.jsp">공지사항</a></li>					
+					<!-- 1번 상단메뉴 -->
+					<li id="gnb2" ><a href="board.jsp" >매칭게시판</a></li>
+					<!-- 2번 상단메뉴 -->
+					<li id="gnb3"><a href="prboard.html">홍보게시판</a></li>
+					<!-- 3번 상단메뉴 -->					
+					<li id="gnb4"><a href="freeboard.html">자유게시판</a></li>
+					<!-- 4번 상단메뉴 -->
+					<li id="gnb5"><a href="qnaboard.html">Q&A게시판</a></li>					
+				</ul>
+			</nav>	
+		</header>
+				
+<!-- ========== container 게시판 공간 ========== -->
+
+		<div id="divContainer">
+			<!---@@   side  @@-->
+			<div id="divSide">
+			<!--  @@   login  @@ -->
+				<form class="form-container">				
+					<div class="submit-container">	
+						<div>					
+							<font style="float:left;margin-left:10px;">(회원이름)님 안녕하세요!</font>							
+							<div style="margin-top:5px;margin-bottom:5px">
+								<a href="mail.jsp">
+								<img src="images/mail.png" id="imagemail" width="20px">
+								<font style="font-size:1.2em;margin-bottom:5px;">5</font>	</a>
+							</div>
+						</div>
+							<input type="button"  class="submit-button" value="로그아웃"  onClick="location.href='index.html'"/>
+							<input type="button"  class="submit-button" value="구단정보"  onclick="window.open('gudanInfoTemp.jsp','window','location=no, directories=no,resizable=no,status=no,toolbar=no,menubar=no, width=960,height=660,left=0, top=0, scrollbars=yes');return false" />
+							<input type="button" class="submit-button"  value="구단창설"  onClick="location.href='gudanJoin.jsp'"/>
+							<input type="button" class="submit-button"  value="구단정보(회원)"  onclick="window.open('gudanInfoTemp2.jsp','window','location=no, directories=no,resizable=no,status=no,toolbar=no,menubar=no, width=960,height=660,left=0, top=0, scrollbars=yes');return false" />
+					</div>
+				</form>
+				<!-- @@ weather @@ -->
+				<div id="divWeather">
+					<img src="images/weather.png"   />
+				</div>
+				<!-- @@ ranking @@ -->
+				<div id="divRanking">
+					<img src="images/ranking.png"  />
+				</div>
+			</div>
+				<!---@@  content  @@-->
+			<div id="divContent">			
+				<a href="matchboard.html"><img src="images/banner2.jpg"  ></a>	
+					<div class="section">
+						<div class="tab tab_type1">
+							<a href="javascript:whenTab('01')" id="tab_a01" class="_tab_title _no_title t1 on" data-tabgrounp="no" data-tabname="notice"><span>공지사항</span></a>
+							<a href="javascript:whenTab('02')" id="tab_a02"class="_tab_title _no_title t2 " data-tabgrounp="no" data-tabname="event"><span>이벤트</span></a>
+						</div>
+						<h3 class="_no_title_txt blind">공지사항</h3>
+						<ul id="tab01" class="_no_content _notice list" style="height: 125px;">
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_NOTICE" data-article_no="1377532"> 	통합시리즈 포인트 산정기준 개편 안내</a> <span class="date">2014.12.05</span></li>
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_NOTICE" data-article_no="1374234">10년전 게임원의 시작이 있었습니다 </a> <span class="date">2014.12.01</span></li>
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_NOTICE" data-article_no="1370526">쪽지 팝업알림 서비스가 통합 업데이트 되었습니다.</a> <span class="date">2014.11.28</span></li>
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_NOTICE" data-article_no="1367083">사이트의 접속장애 관련 안내입니다.</a> <span class="date">2014.11.11</span></li>
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_NOTICE" data-article_no="1366051">원외기록 서비스가 업데이트 되었습니다.</a> <span class="date">2014.10.05</span></li>
+						</ul>	       
+	
+						<ul id="tab02" class="_no_content _event list" style="display: none; height: 125px;">
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_EVENT" data-article_no="1331825" >[진행] 12월 1주 경기 결과 예측! 이벤트 안내</a> <span class="date">2014.11.26</span></li>
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_EVENT" data-article_no="1327294" >[종료] &lt; 드리프트걸즈&gt; 스페셜 이벤트 안내</a> <span class="date">2014.11.25</span></li>
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_EVENT" data-article_no="1321440" >[종료] &lt; 1주년 기념! 포인트 교환권&gt; 이벤트 안내</a> <span class="date">2014.11.24</span></li>
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_EVENT" data-article_no="1303292" >[종료] 11월 4주 경기 결과 예측! 이벤트 안내</a> <span class="date">2014.11.19</span></li>
+							<li><a href="#" class="_board_link" data-board_id="FD_BOARD_EVENT" data-article_no="1299705" >[종료] &lt;정식 서비스 1주년 기념!&gt; 이벤트 안내</a> <span class="date">2014.11.18</span></li>
+						</ul>		              
+				    </div>
+
+            <div class="section">
+                <!-- [D] 선택tab on 추가 -->
+                <div class="tab tab_type2">
+                    <a href="javascript:whenTab('03')" id="tab_a03" class="_tab_title _co_title t1 on" data-tabgrounp="co" data-tabname="free"><span>매칭게시판</span></a>
+                    <a href="javascript:whenTab('04')" id="tab_a04"  class="_tab_title _co_title t2" data-tabgrounp="co" data-tabname="bug"><span>홍보게시판</span></a>
+                    <a href="javascript:whenTab('05')" id="tab_a05"  class="_tab_title _co_title t3" data-tabgrounp="co" data-tabname="game"><span>자유게시판</span></a>
+                    <a href="javascript:whenTab('06')" id="tab_a06" class="_tab_title _co_title t4" data-tabgrounp="co" data-tabname="lineup"><span>Q&A게시판</span></a>
+                </div>
+                <h3 class="_co_title_txt blind">자유게시판</h3>
+                <ul id="tab03"class="_co_content _free list" style="height: 125px;">
+                    <li><a href="#" class="_board_link" data-board_id="FD_BOARD_FREE" data-article_no="1391220"><em>[서울] 12월25일(성탄절) 서울고야구장 대여!!!!</em></a> <span class="date">2014.12.09</span></li>
+                            <li><a href="#" class="_board_link" data-board_id="FD_BOARD_FREE" data-article_no="1391219"><em>[경기] 13일 함께하실팀~~제이티베이스볼파크 대여 </em></a><span class="date">2014.12.09</span></li>
+                            <li><a href="#" class="_board_link" data-board_id="FD_BOARD_FREE" data-article_no="1391217"><em>[서울] 12월 15일 경기하실분 구합니다. BC리그야구장 대여</em></a> <span class="date">2014.12.09</span></li>
+                            <li><a href="#" class="_board_link" data-board_id="FD_BOARD_FREE" data-article_no="1391216"><em>[서울] 12월 27일 잠실 탄천 야구장에서 함께 하실분 구합니다.</em></a> <span class="date">2014.12.09</span></li>
+                            <li><a href="#" class="_board_link" data-board_id="FD_BOARD_FREE" data-article_no="1391214"><em>[서울] 12월 23일 재미있는 경기 함께 합시다 난지야구장대여</em></a> <span class="date">2014.12.09</span></li>
+                            </ul>
+              
+                    <ul id="tab04" class="_co_content _bug list" style="display: none; height: 125px;">
+                        <li><a href="#" class="_board_link" data-board_id="FD_BOARD_BUG" data-article_no="1391188"><em>[서울] 2015년 드래곤 팀원 모집합니다^^~</em></a> <span class="date">2014.12.09</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_BUG" data-article_no="1391110"><em>[경기] 의왕 블루버드 일요 3부 팀원 2명 모집합니다.</em></a> <span class="date">2014.12.09</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_BUG" data-article_no="1390537"><em>[인천] 해병 야구단원을 모집합니다.</em></a> <span class="date">2014.12.08</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_BUG" data-article_no="1390472"><em>[서울] 용인,성안,서울 등 아레스에서 팀원 모집합니다.</em></a><span class="date">2014.12.08</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_BUG" data-article_no="1390427"><em>[서울] 2015년 함께하실 팀원분을 모집합니다.(4부 일요) </em></a> <span class="date">2014.12.08</span></li>
+                                </ul>
+
+                    <ul id="tab05" class="_co_content _game list" style="display: none; height: 125px;">
+                        <li><a href="#" class="_board_link" data-board_id="FD_BOARD_GAME" data-article_no="1391192"><em>서울 지역 팀 구합니다. 즐거운 게임을 하기위해 열심히 하겠습니당*^^* </em></a> <span class="date">2014.12.09</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_GAME" data-article_no="1391184"><em>다음 야구 시즌에는 10구단이니 매우 기대가 됩니다!!</em></a> <span class="date">2014.12.09</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_GAME" data-article_no="1391171"><em>외대 용인캠퍼스에서 캐치볼 하실분~~~</em></a><span class="date">2014.12.09</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_GAME" data-article_no="1391084"><em>노원구(관운대역 바로앞) 동계 팀대관/팀레슨 받습니다.</em></a><span class="date">2014.12.09</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_GAME" data-article_no="1390987"><em>윌슨 A1030 공식 시합구 판매합니다.(인터넷 최저가입니다) </em></a> <span class="date">2014.12.09</span></li>
+                                </ul>                  
+
+                    <ul id="tab06" class="_co_content _lineup list" style="display: none; height: 125px;">                        
+                        <li><a href="#" class="_board_link" data-board_id="FD_BOARD_LINEUP" data-article_no="1391213"><em>서울 지역 야구장 대여 비용이 얼마나 되나요??</em></a> <span class="date">2014.12.10</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_LINEUP" data-article_no="1391196"><em>야구장 예약신청 후 시간 바꾸려면 어떻게 해야하나요?</em></a> <span class="date">2014.12.08</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_LINEUP" data-article_no="1391163"><em>한 선수가 여러 팀에 소속되어 참가 할 수 있나요?</em></a> <span class="date">2014.12.06</span></li>
+                                <li><a href="#" class="_board_link" data-board_id="FD_BOARD_LINEUP" data-article_no="1391156"><em>심판은 어떻게 섭외해야하나요?</em></a><span class="date">2014.12.01</span></li>
+								<li><a href="#" class="_board_link" data-board_id="FD_BOARD_LINEUP" data-article_no="1391154"><em>야구장비 저렴하게 판매하는 쇼핑몰 있나요?</em></a><span class="date">2014.12.01</span></li>
+                                </ul>                    
+			 </div>	
+				
+			</div>
+		</div>
+		
+<!-- ============= footer   ============== -->
+		  	
+		<footer id="footer">
+			<a href="sitemap.html">사이트 맵</a>
+			<div>
+				copyright&copy; All Rights Reserved.<br />
+				contact <a href="mailto:javaman@java.co.kr">webmaster</a>
+			</div>
+		</footer>
+	
+</body>
+</html>

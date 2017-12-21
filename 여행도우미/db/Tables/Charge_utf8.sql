@@ -1,0 +1,24 @@
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D1', '0', 'C1', 'B1');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D2', '31000', 'C2', 'B2');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D3', '28000', 'C3', 'B2');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D4', '25000', 'C4', 'B2');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D5', '0', 'C5', 'B2');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D6', '0', 'C6', 'B3');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D7', '67000', 'C7', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D8', '57000', 'C8', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D9', '27000', 'C9', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D10', '54000', 'C10', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D11', '44000', 'C11', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D12', '22000', 'C12', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D13', '59000', 'C13', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D14', '50000', 'C14', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D15', '48000', 'C15', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D16', '40000', 'C16', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D17', '36000', 'C17', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D18', '40000', 'C18', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D19', '26000', 'C19', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D20', '30000', 'C20', 'B4');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D21', '0', 'C21', 'B5');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D22', '0', 'C22', 'B6');
+INSERT INTO Charge (charge_id, enter_fee, enter_id,  sight_id) VALUES ('D23', '0', 'C23', 'B7');
+

@@ -1,0 +1,33 @@
+#divContent > h2{
+	text-align:center;
+	margin:20px 0px 20px 30px;
+}
+hr{
+	width:700px;
+}
+.tblViewInfo{
+	width:700px;
+	margin:20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+}
+.tblViewInfo td{
+	width:400px;
+	text-align: left;
+	word-break:break-all;
+}
+#infocontent tr{
+	height: 100px;
+}
+
+#infocontent th{
+	width: 300px;
+}
+
+#infocontent td{
+	height:200px;	
+}
+#memoview_btn{
+	margin-top: 50px;
+}

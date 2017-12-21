@@ -1,0 +1,16 @@
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E1', '호텔', 'B1');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E2', '모텔', 'B1');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E3', '게스트하우스', 'B1');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E4', '호텔', 'B2');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E5', '모텔', 'B2');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E6', '호텔', 'B3');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E7', '모텔', 'B3');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E8', '여인숙', 'B3');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E9', '리조트', 'B4');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E10', '호텔', 'B5');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E11', '모텔', 'B5');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E12', '게스트하우스', 'B5');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E13', '호텔', 'B6');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E14', '모텔', 'B6');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E15', '게스트하우스', 'B6');
+INSERT INTO Stay (stay_id, stay_name, sight_id) VALUES ('E16', '모텔', 'B7');

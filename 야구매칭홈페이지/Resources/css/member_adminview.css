@@ -1,0 +1,49 @@
+table{
+	border:0px;
+}
+
+#divAdmin{
+	font-size:1em;	
+}
+#divAdmin div{
+	padding:0px;
+	border:2px solid #999;
+	clear:right;
+}
+#divAdmin div:nth-child(3){
+	margin-top:40px;	
+}
+h2{
+	margin:0x;padding:0px;
+	margin-left:20px;
+}
+h3{
+	margin:0px;padding:0px;
+	clear:both;
+	margin:10px 0px 10px 20px;
+}
+.float_right{
+	float:right;
+}
+#tableMatching{
+	width:100%;	height:100%;
+	text-align:center;
+	background-color:#eee;
+}
+
+#tableMatching tr{
+	height:20px;
+}
+
+#formPenalty > p{
+	margin-bottom:0px;
+	height: 160px; 
+	background: #eee; 
+	border: 5px solid #eee;
+	color: #000; 
+	overflow: auto; 
+}
+#formPenalty  input[type="button"]{
+	margin-top:10px;
+	margin-right:10px;
+}

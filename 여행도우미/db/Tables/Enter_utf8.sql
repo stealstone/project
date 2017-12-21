@@ -1,0 +1,24 @@
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C1', '입장료 없음', 'B1');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C2', '어른', 'B2');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C3', '청소년', 'B2');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C4', '어린이', 'B2');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C5', '베이비', 'B2');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C6', '입장료 없음', 'B3');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C7', '대인/골드시즌/종일권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C8', '대인/골드시즌/오후권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C9', '대인/골드시즌/야간권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C10', '소인/골드시즌/종일권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C11', '소인/골드시즌/오후권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C12', '소인/골드시즌/야간권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C13', '대인/하이시즌/종일권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C14', '대인/하이시즌/오후권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C15', '소인/하이시즌/종일권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C16', '소인/하이시즌/오후권', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C17', '대인/로우시즌/주중', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C18', '대인/로우시즌/주말', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C19', '소인/로우시즌/주중', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C20', '소인/로우시즌/주말', 'B4');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C21', '입장료 없음', 'B5');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C22', '입장료 없음', 'B6');
+INSERT INTO Enter (enter_id, enter_type, sight_id) VALUES ('C23', '입장료 없음', 'B7');
+

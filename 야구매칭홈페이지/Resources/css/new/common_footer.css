@@ -1,0 +1,17 @@
+
+/*==================footer===================*/
+
+footer{
+	clear:both;
+	height:100px;
+	text-align:center;		
+	padding-top:5px;
+}
+footer > div{
+	font-size:1.2em;
+	margin-top:10px
+}
+footer > a{
+	font-size:1.5em;
+}	
+	

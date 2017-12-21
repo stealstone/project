@@ -1,0 +1,18 @@
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H1', '할머니 손칼국수', 5000, 'G1', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H2', '혜화칼국수', 7000, 'G1', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H3', '황생가 칼국수', 8000, 'G1', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H4', '연백', 6000, 'G1', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H5', '대장장이 화덕피자', 16000, 'G2', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H6', '삼청동 화덕피자', 15000, 'G2', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H7', '계동피자', 15000, 'G2', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H8', '산내리 북촌점', 14000, 'G3', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H9', '삼청화', 8000, 'G3', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H10', '한가네불고기', 10000, 'G3', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H11', '키이로메시야', 6000, 'G4', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H12', '카레팩토리', 7500, 'G4', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H13', '델리커리', 8500, 'G4', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H14', '샛집남원 추어탕', 9000, 'G5', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H15', '춘향골 남원 추어탕', 6000, 'G5', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H16', '본가', 11000, 'G6', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H17', '소담골', 14000, 'G6', 'B1');
+INSERT INTO Restaurant (restaurant_id, restaurant_name, food_fee, food_id, sight_id) VALUES ('H18', '호박식당', 10000, 'G6', 'B1');

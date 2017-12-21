@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+/*=============태그 초기화 ====================*/
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{
+	margin:0;padding:0}body{font-family:'Nanum Gothic',NanumGothic,Dotum,Verdana;font-size:0.75em
+}
+a{text-decoration:none}
+a{color:#44526c;text-decoration:none}
+input.inp_chk,input.inp_rdo{width:13px;height:13px;vertical-align:text-top}
+table {border-collapse:collapse}
+.blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+.ellipsis,.ellp{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;_width:100%}
+.dimmed{position:absolute;top:0;right:0;bottom:0;left:0;background:#000;opacity:0.7;filter:alpha(opacity=70)}
+
+/*===================align 속성================*/
+
+.align_center{margin-right:auto; margin-left:auto}
+.text_align_center{text-align:center;}
+
+/* ============= 게시판 스타일 속성=================== */
+#divContent > div > div{
+	width:740px;
+	margin-right:auto;margin-left:auto;
+}
+
+.bbsList{
+	width:700px; 
+	margin-right:auto;margin-left:auto;
+	font-size:1.2em;
+}
+.bbsList tbody tr td{
+	border:1px soild black;
+}
+.bbsList tbody tr:first-child{
+	border:1px solid black;
+}
+.bbsList tbody tr th:nth-child(1){
+	width:60px;
+}
+.bbsList tbody tr th:nth-child(2){
+	width:60px;
+}
+.bbsList tbody tr th:nth-child(4){
+	width:70px;	
+}
+.bbsList tbody tr th:nth-child(5){
+	width:70px;
+}
+.bbsList tbody tr th:nth-child(6){
+	width:70px;
+}
+.bbsList tbody tr th:nth-child(7){
+	width:70px;
+}
+.bbsList tbody tr th:nth-child(8){
+	width:70px;
+}
+.bbsList tbody tr td:nth-child(3){
+	text-align:left;	
+	padding-left:13px;
+}
+tr{
+	height:30px;
+}
+th{
+	border:1px solid #999999;	
+}
+td{
+	border-bottom:1px solid #999999;
+	text-align:center;
+}
+#btnApply{
+	width:86px; height:26px;
+	background:url(../images/btn.gif) no-repeat;
+}
+#btnWrite{
+	width:57px; height:28px;
+	margin-top:20px;	margin-right:40px;	
+	border:0px;	float:right;
+}

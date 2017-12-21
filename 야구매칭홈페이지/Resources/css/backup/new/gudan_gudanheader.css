@@ -1,0 +1,11 @@
+th{
+	background-color:#C0FFFF;
+}		
+h1{
+	padding-top:35px;		padding-left:30px;			
+}
+
+input[type="button"]{
+	float:right; 
+	margin:5px;
+}

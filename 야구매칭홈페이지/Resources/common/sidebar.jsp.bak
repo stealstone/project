@@ -1,0 +1,65 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:directive.page import="Baseball.libs.model.MemberBean" />
+<link rel="stylesheet" type="text/css" href="../css/common_sidebar_login.css">
+<link rel="stylesheet" type="text/css" href="../css/common_sidebar.css">
+<script type="text/javascript" src="../js/login.js"></script>
+<script type="text/javascript" src="../js/logout.js"></script>
+<script type="text/javascript" src="../js/gudanpage.js"></script>
+
+<%
+	//MemberBean me = (MemberBean)session.getAttribute("me");
+	MemberBean me = null;
+%>
+    
+<!--  @@   login  @@ -->
+<% if(me == null){ %>
+<form class="form-container" method="post" action="../member/login.jsp">	
+	<div class="form-title">아이디</div>
+	<input class="form-field" type="text" name="userid" /><br />
+	<div class="form-title">패스워드</div>
+	<input class="form-field" type="password" name="pass" /><br />
+	<div class="submit-container">
+		<input type="button" class="submit-button" value="로그인"	onClick="login()" /> 
+		<input type="button" class="submit-button" value="회원가입" onClick="location.href='../member/userJoin.jsp'" />
+	</div>
+</form>
+<%}else{ %>
+<!-- 로그인될 시 나타날 사이드 바의 데모 화면 (삭제예정)-->
+  <div class="form-container" style="margin-top:20px">	
+	<div class="submit-container">	
+		<div>					
+			<font style="float:left;margin-left:10px;"><%= me.getUserid() %>님 안녕하세요!</font>							
+			<div style="margin-top:5px;margin-bottom:5px">
+				<a href="mail.jsp">
+				<img src="../images/mail.png" id="imagemail" width="20px">
+				<font style="font-size:1.2em;margin-bottom:5px;">5</font></a>
+			</div>				
+		</div>
+			<% if((me.getGudan() == null) &&(!me.getGrade().equals("4"))){ %>
+				<input type="button" class="submit-button"  value="구단창설"  onClick="location.href='../gudan/gudancreate.jsp'"/>
+			<% }else{ %>
+				<input type="button"  class="submit-button" value="구단정보"  onclick="gudanPage()" />
+			<% } %>
+						
+			<% if(me.getGrade().equals("4")){ %>
+			<input type="button" class="submit-button"  value="관리(관리자)"  onclick="window.open('../gudan/gudanview_admin.jsp','window','location=no, directories=no,resizable=no,status=no,toolbar=no,menubar=no, width=960,height=660,left=0, top=0, scrollbars=yes');return false" />
+			<% } %>
+			<form method="post" action="../member/logout.jsp" name="logoutform" id="logoutform">
+				<input type="button"  class="submit-button" value="로그아웃"  onClick="logout()"/>
+			</form>
+	</div>
+  </div>
+<% } %>
+<!----------------------------------->
+
+
+<!-- @@ weather @@ -->
+<div id="divWeather">
+	<img src="../images/weather.png"   />
+</div>
+<!-- @@ ranking @@ -->
+<div id="divRanking">
+	<img src="../images/ranking.png"  />
+</div>
+			
